@@ -4,6 +4,6 @@
   },
 
   "scripts": {
-    "scheme": "graphqlviz $GQL_ENDPOINT -a \"$GQL_ACCESS_TOKEN\" | dot -Tpng -o scheme.png"
+    "visualize-scheme": "graphqlviz $GQL_ENDPOINT -a \"$GQL_ACCESS_TOKEN\" | dot -Tpng -o scheme.png"
   }
 }
